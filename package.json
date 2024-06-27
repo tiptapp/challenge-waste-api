@@ -1,0 +1,9 @@
+{
+    "name": "recycling-app",
+    "version": "1.0.0",
+    "main": "server.js",
+    "dependencies": {
+      "@hapi/hapi": "^20.3.0",
+      "mongodb": "^6.7.0"
+    }
+  }
