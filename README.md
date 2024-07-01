@@ -8,7 +8,7 @@ Write the Backend for an app that lets the households classify what types of was
 2. Clone this repository.
 3. Run `docker-compose up --build` in the project folder.
 4. Add two endpoints:
-   - POST endpoint for creating a listing of a bag of waste, that accepts a payload containing only the waste types and the street number at which it is located.
-   - GET endpoint for listing the bags, with a single parameter for specifying the id of a recycling center.
-     - Bonus: remove the recycling center id, and get the recycling center id in some other way.
-5. Bonus: add a GET endpoint for listing which recycling centers allow a list of certain bags, that accepts an array of bag ids as its only parameter.
+   - POST endpoint for letting households create a listing of a bag of waste, that accepts a payload containing only the waste types and the street number at which it is located.
+   - GET endpoint for letting a garbage collector list the bags, with a single parameter for specifying the id of a recycling center.
+     - Bonus: remove the recycling center id, and get it in some other way.
+5. Bonus: add a GET endpoint for listing which recycling centers allow a collection of certain bags.
